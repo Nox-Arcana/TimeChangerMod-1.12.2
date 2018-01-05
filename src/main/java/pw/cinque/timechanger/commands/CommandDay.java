@@ -26,7 +26,7 @@ public class CommandDay extends CommandBase
     
     public void execute(MinecraftServer server, ICommandSender sender, String[] args) throws CommandException {
         TimeChanger.TIME_TYPE = TimeType.DAY;
-        sender.sendMessage(new TextComponentString(TextFormatting.GREEN + "Time is set to day."));
+        sender.sendMessage(new TextComponentString(TextFormatting.GREEN + "Time is now set to day."));
     }
     
     public int getRequiredPermissionLevel() {
