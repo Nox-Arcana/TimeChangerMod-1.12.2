@@ -15,6 +15,6 @@ Set night time: /night
 
 Set sunset: /sunset
 
-Speed up time /fasttime <1,2,3..>
+Speed up time: /fasttime <1,2,3..>
 
 Reset to original time (vanilla): /resettime
